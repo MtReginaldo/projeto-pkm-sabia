@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Sabiá - Anotações</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="img/logo.ico" type="image/x-icon" />
+</head>
+<body>
+  <div class="sidebar">
+    <div class="logo-and-title" id="logo-title">
+      <img src="img/logo.png" alt="Logo Sabiá" class="logo" />
+      <div class="site-name">Sabiá</div>
+    </div>
+
+    <div class="search-container">
+      <div class="search-bar">
+        <input type="text" placeholder="Pesquisar anotações..." id="search-input" />
+      </div>
+      <div class="tag-button-container">
+        <button class="tag-button" id="open-tags-btn" title="Filtrar por tags">...</button>
+      </div>
+    </div>
+
+    <div class="add-page-btn" onclick="addPage()">+ Nova anotação</div>
+
+    <div id="page-list"></div>
+
+    <div class="sidebar-footer">
+      <button class="sidebar-btn">Configurações</button>
+      <button class="sidebar-btn">Sair</button>
+    </div>
+  </div>
+
+  <div class="content" id="content-area">
+    <!-- Conteúdo da nota ou homepage aqui -->
+  </div>
+
+  <div class="modal-overlay" id="modal-overlay">
+    <div class="modal">
+      <h2>Selecione uma Tag</h2>
+      <ul class="tag-list" id="tag-list"></ul>
+      <button class="modal-close-btn" id="close-modal-btn">Fechar</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
