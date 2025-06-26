@@ -1,6 +1,6 @@
 # Sabiá
 
-![Logo](img/logo.jpg)
+![Logo](img/logo.png)
 
 ### Bem-vindo ao Sabiá</h1>
 
